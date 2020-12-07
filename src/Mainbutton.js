@@ -9,11 +9,11 @@ function Mainbutton(props) {
       { props.visible===true ?
        [ pos==="left" || pos==="right" ?
        <div className="tip" style={{width:50,height:100,[pos]:-120}}>
-       here's the tip for u
+        Tip for u
       </div>
        :
        <div className="tip" style={{[pos]:-120}}>
-          here's the tip for u
+          Tip for u
          </div>
        ]
          :
